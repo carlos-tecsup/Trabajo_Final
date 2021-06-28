@@ -1,0 +1,5 @@
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.pdb
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.pdb

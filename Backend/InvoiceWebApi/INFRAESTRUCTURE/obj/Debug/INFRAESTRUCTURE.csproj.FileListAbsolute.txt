@@ -1,0 +1,16 @@
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\INFRAESTRUCTURE.dll.config
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\INFRAESTRUCTURE.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\INFRAESTRUCTURE.pdb
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\DOMAIN.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\EntityFramework.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\DOMAIN.pdb
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\EntityFramework.xml
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.csprojAssemblyReference.cache
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.csproj.CopyComplete
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.pdb
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.Migrations.Jonathan.resources
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\INFRAESTRUCTURE\obj\Debug\INFRAESTRUCTURE.csproj.GenerateResource.cache
