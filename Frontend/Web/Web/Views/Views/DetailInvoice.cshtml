@@ -1,0 +1,62 @@
+﻿
+
+@{
+    ViewBag.Title = "DetailInvoice";
+}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card bg-light" >
+        <div class="card-header">Detalle de Factura</div>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a  class="btn btn-light btn-xs" href="~/Views/ListInvoice">&laquo; Lista de facturas </a>
+            </h4>
+
+            <ul class="list-group my-2">
+                <li class="list-group-item list-group-item-primary">Datos del cliente</li>
+                <li class="list-group-item">Nombre:Carlos </li>
+                <li class="list-group-item">Apellido:Huaynates</li>
+            </ul>
+
+            <ul class="list-group my-2">
+                <li class="list-group-item list-group-item-primary">Datos de la factura</li>
+                <li class="list-group-item">Folio: 140002</li>
+                <li class="list-group-item">Fecha:27/06/2021</li>
+            </ul>
+
+            <table class="table table-striped table-hover table-bordered my-3">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td>Leche Gloria</td>
+                        <td>3.20</td>
+                        <td>4</td>
+                        <td>12.80</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5 class="float-right">
+                <span>Gran Total</span>: <span class="badge badge-secondary">12.80</span>
+            </h5>
+
+         
+        </div>
+    </div>
+</body>
+</html>

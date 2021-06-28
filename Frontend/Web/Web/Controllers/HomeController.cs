@@ -12,6 +12,11 @@ namespace Web.Controllers
         {
             return View();
         }
+        public ActionResult CreateInvoice()
+        {
+            return View();
+        }
+
 
         public ActionResult About()
         {

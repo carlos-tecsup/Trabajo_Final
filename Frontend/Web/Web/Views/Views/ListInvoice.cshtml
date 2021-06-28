@@ -1,0 +1,193 @@
+﻿
+@{
+    ViewBag.Title = "ListInvoice";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="card border-primary mb-3">
+        <div class="card-header">Facturas</div>
+        <div class="card-body text-primary">
+            <h4 class="card-title">
+                <a class="btn btn-light btn-xs" href="CreateInvoice">&laquo; Crear facturas</a>
+            </h4>
+            <h5 class="card-title">Listado de facturas</h5>
+            <!-- Primary -->
+            <div class="row" style="        margin-left: 28px">
+                <div class="btn-group">
+                    <label for="cliente" style="color:gray">Cliente</label>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6" style="margin-left:12px;margin-bottom:19px">
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Elegir Cliente
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Carlos Huaynates</a>
+                                    <a class="dropdown-item" href="#">Jonathan Huarca</a>
+                                    <a class="dropdown-item" href="#">Harold Victorio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary -->
+                <div class="btn-group" style="margin-left:28px">
+                    <label for="producto" style="color:gray">Producto</label>
+
+                    <div class="form-group row">
+                        <div class="col-sm-6" style="margin-left:12px;margin-bottom:19px">
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Elegir Producto
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Leche Gloria</a>
+                                    <a class="dropdown-item" href="#">Chocolate Sublime</a>
+                                    <a class="dropdown-item" href="#">Galleta doritos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success -->
+                <div class="btn-group" style="margin-left:28px">
+                    <label for="cliente" style="color:gray">#Factura</label>
+
+                    <div class="form-group row" style="margin-left:20px">
+                        <input class="form-control" id="inputFecha" type="text" />
+
+                    </div>
+                </div>
+            </div>
+            <!-- Info -->
+            <div class="btn-group" style="margin-left:28px">
+                <label for="cliente" style="color:gray">Fecha desde</label>
+
+                <div class="form-group row">
+                    <div class="col-sm-12" style="margin-bottom:12px;margin-left:10px">
+                        <input class="form-control" id="inputFecha" type="date" placeholder="Fecha" />
+                    </div>
+                </div>
+            </div>
+            <!-- Warning -->
+            <div class="btn-group" style="margin-left:28px">
+
+                <label for="cliente" style="color:gray">Fecha hasta</label>
+
+                <div class="form-group row">
+                    <div class="col-sm-12" style="margin-bottom:12px;margin-left:10px">
+                        <input class="form-control" id="inputFecha" type="date" placeholder="Fecha" />
+                    </div>
+                </div>
+            </div>
+            <!-- Danger -->
+            <div class="btn-group" style="margin-left:28px">
+
+
+                <div class="form-group row">
+                    <div class="col-sm-6" style="margin-left:12px;margin-bottom:19px">
+                        <button type="button" class="btn btn-primary btn-lg">Buscar</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <table class="table table-bordered table-striped" style="color:black">
+                <thead>
+                    <tr>
+                        <th>Folio</th>
+                        <th>Fecha</th>
+                        <th>Cliente</th>
+                        <th>Total</th>
+                        <th>Estado</th>
+                        <th>Ver</th>
+                        <th>eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            000484192
+                        </td>
+                        <td>26/06/2021</td>
+                        <td>Harold Victorio</td>
+                        <td>1500</td>
+                        <td>Entregado</td>
+                        <td>
+                            <form action="~/Views/DetailInvoice">
+
+                                <button type="submit" class="btn btn-success btn-sm" href>ver factura</button>
+                            </form>
+                        </td>
+
+                        <td>
+                            <button type="button" name="eliminar" class="btn btn-danger btn-sm">eliminar</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            000484193
+                        </td>
+                        <td>27/06/2021</td>
+                        <td>Carlos Huaynates</td>
+                        <td>1500</td>
+                        <td>Entregado</td>
+                        <td>
+                            <form action="~/Views/DetailInvoice">
+
+                                <button type="submit" class="btn btn-success btn-sm" href>ver factura</button>
+                            </form>
+                        </td>
+
+                        <td>
+                            <button type="button" name="eliminar" class="btn btn-danger btn-sm">eliminar</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            000484194
+                        </td>
+                        <td>28/06/2021</td>
+                        <td>Jonathan Huarca</td>
+                        <td>1500</td>
+                        <td>Entregado</td>
+                        <td>
+                            <form action="~/Views/DetailInvoice">
+
+                                <button type="submit" class="btn btn-success btn-sm" href>ver factura</button>
+                            </form>
+                        </td>
+
+                        <td>
+                            <button type="button" name="eliminar" class="btn btn-danger btn-sm">eliminar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+

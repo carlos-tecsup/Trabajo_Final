@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "CreateInvoice";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="card bg-light">
+        <div class="card-header">AGREGAR FACTURA</div>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a class="btn btn-light btn-xs" href="ListInvoice">&laquo; Lista de facturas</a>
+            </h4>
+            <div class="row">
+
+            </div>
+            <div class="flex-inline">
+                <form>
+                    <div class="form-group row">
+                        <label for="cliente" class="col-sm-2 col-form-label">Cliente</label>
+                        <div class="col-sm-6">
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Elegir Cliente
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Carlos Huaynates</a>
+                                    <a class="dropdown-item" href="#">Jonathan Huarca</a>
+                                    <a class="dropdown-item" href="#">Harold Victorio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="cliente" class="col-sm-2 col-form-label">Producto</label>
+                        <div class="col-sm-6">
+                            <div class="dropdown show">
+                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Elegir Producto
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Leche Gloria</a>
+                                    <a class="dropdown-item" href="#">Galleta morocha</a>
+                                    <a class="dropdown-item" href="#">Inca Kola</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-group row">
+                            <label for="cliente" class="col-sm-2 col-form-label">Cantidad</label>
+                            <td><input type="number" value="3" class="form-control col-sm-1"></td>
+                        </div>
+                    </form>
+
+                </form>
+
+                <input type="submit" value="Agregar" class="btn btn-primary">
+            </div>
+
+
+
+
+
+
+
+                <table class="table table-striped table-hover table-sm">
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+
+                            <th>Producto</th>
+                            <th>Precio(S/.)</th>
+                            <th>Cantidad</th>
+                            <th>SubTotal</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Carlos Huaynates</td>
+
+                            <td>Leche Gloria            </td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>15</td>
+                            <td>
+                                <button class="btn btn-danger btn-sm" type="button">
+                                    x
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h5 class="float-right">Gran Total(S/.): <span class="badge badge-secondary">15</span></h5>
+
+                <div class="col">
+                    <div class="text-center">
+                        <form action="~/Views/DetailInvoice">
+
+                            <button type="submit" class="btn btn-success btn-lg" style="margin: 0 auto">Guardar</button>
+                            </form>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+
