@@ -84,3 +84,7 @@ C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\obj\Debug\Web.csproj.CoreComp
 C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\obj\Debug\Web.csproj.CopyComplete
 C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\obj\Debug\Web.dll
 C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\obj\Debug\Web.pdb
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\bin\EntityFramework.dll
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\bin\EntityFramework.xml
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Web\Web\bin\EntityFramework.SqlServer.xml

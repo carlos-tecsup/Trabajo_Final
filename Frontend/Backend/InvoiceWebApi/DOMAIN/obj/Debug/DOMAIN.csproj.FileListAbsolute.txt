@@ -1,0 +1,10 @@
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.pdb
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.dll
+C:\Users\JONATHAN\source\repos\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.pdb
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Backend\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.dll
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Backend\InvoiceWebApi\DOMAIN\bin\Debug\DOMAIN.pdb
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Backend\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Backend\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.dll
+C:\Users\ASUS\Music\Trabajo Final\Frontend\Backend\InvoiceWebApi\DOMAIN\obj\Debug\DOMAIN.pdb

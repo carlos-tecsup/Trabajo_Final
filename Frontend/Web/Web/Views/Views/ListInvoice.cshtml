@@ -16,29 +16,25 @@
 <body>
 
     <div class="card border-primary mb-3">
-        <div class="card-header">Facturas</div>
+        <div class="card-header">LISTADO DE FACTURAS</div>
         <div class="card-body text-primary">
             <h4 class="card-title">
                 <a class="btn btn-light btn-xs" href="CreateInvoice">&laquo; Crear facturas</a>
             </h4>
-            <h5 class="card-title">Listado de facturas</h5>
             <!-- Primary -->
-            <div class="row" style="        margin-left: 28px">
+            <div class="row" style="   margin-left: 28px">
                 <div class="btn-group">
-                    <label for="cliente" style="color:gray">Cliente</label>
+                    <label for="customer" style="color:gray">Cliente</label>
 
                     <div class="form-group row">
                         <div class="col-sm-6" style="margin-left:12px;margin-bottom:19px">
                             <div class="dropdown show">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Elegir Cliente
-                                </a>
+                                <select class="form-control" id="customer" name="customer">
+                               
 
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Carlos Huaynates</a>
-                                    <a class="dropdown-item" href="#">Jonathan Huarca</a>
-                                    <a class="dropdown-item" href="#">Harold Victorio</a>
-                                </div>
+                                </select>
+
+
                             </div>
                         </div>
                     </div>
@@ -189,5 +185,28 @@
 
 </body>
 </html>
+@section scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
 
+            var llenarClientes = function () {
+                $.ajax({
+                    type: "GET",
+                    url: '/Customers/GetCustomers',
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data)
+                        $.each(data, function (key, registro) {
+                            $("#customer").append('<option value=' + registro.name + '>' + registro.lastname + '</option>');
+                        });
+                        $('#customer').combobox()
+                    },
+                    error: function (data) {
+                        alert('error');
+                    }
+                });
+            }
+        }
+    </script>
+}
 
